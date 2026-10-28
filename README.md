@@ -6,7 +6,7 @@
 
 Measured on 27 October 2026 against 50,000 orders: a missing index costs **30×**, and a query-per-row loop costs **101×** once the database is across a network — while on one machine the same loop is **indistinguishable** from the fast version.
 
-> **Read the article:** [Why Your App Gets Slow With 80 Users, and How to Fix It on Back4app](https://www.back4app.com/blog/why-your-app-gets-slow-with-80-users?utm_source=github&utm_medium=repo&utm_campaign=scale-lab)
+> **Read the article:** [Why Your App Gets Slow With Only 80 Users: a Missing Index and an N+1 Loop, Measured](https://www.back4app.com/blog/why-your-app-gets-slow-with-80-users?utm_source=github&utm_medium=repo&utm_campaign=scale-lab)
 
 ## Run it
 
